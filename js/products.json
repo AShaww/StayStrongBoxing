@@ -1,0 +1,544 @@
+{
+    "Categories": [
+        {
+            "Type": "Footwear",
+            "Description": "All the latest and greatest in Footwear",
+            "Image": "../images/footwear-shoe.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "ADIDAS MAT WIZARD HYPE RING BOOTS",
+                        "productBrand": "ADIDAS",
+                        "productDescription": "Sleek Adidas Boxing Ring Shoes!",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21026945.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21026945.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/e/f/ef1476_ftw_photo_side-medial-center_8.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/e/f/ef1476_ftw_photo_front-lateral-top_8.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21026945.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/e/f/ef1476_ftw_photo_side-medial-center_8.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/e/f/ef1476_ftw_photo_front-lateral-top_8.jpg"
+                        ],
+                        "productCode": "BA8810",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black/Gold",
+                        "sizesAvailable": [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ],
+                        "productPrice": 124.99
+                    },
+                    {
+                        "productTitle": "NIKE HYPERKO 2.0 BOXING BOOTS",
+                        "productBrand": "NIKE",
+                        "productDescription": "Nike Adidas Boxing Ring Shoes!",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/c/i/ci2953-606b.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21032253.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/c/i/ci2953-606b.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/a/p/aps-5704.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032253.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/c/i/ci2953-606b.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/p/aps-5704.jpg"
+                        ],
+                        "productCode": "BA8810",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black/Gold",
+                        "sizesAvailable": [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ],
+                        "productPrice": 124.99
+                    },
+                    {
+                        "productTitle": "RIVAL RSX-GUERRERO DELUXE BOXING BOOTS",
+                        "productBrand": "RIVAL",
+                        "productDescription": "Rival Adidas Boxing Ring Shoes!",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21028666.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21028666.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/r/s/rsx-guerrero-deluxe-gold-inside.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/r/s/rsx-guerrero-deluxe-gold-combo.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21028666.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/r/s/rsx-guerrero-deluxe-gold-inside.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/r/s/rsx-guerrero-deluxe-gold-combo.jpg"
+                        ],
+                        "productCode": "BA8810",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black/Gold",
+                        "sizesAvailable": [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ],
+                        "productPrice": 124.99
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Gloves",
+            "Description": "All the latest and greatest in Gloves",
+            "Image": "../images/gloves.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "ADIDAS LIMITED EDITION CUSTOM US HANDMADE LACE SPARRING GLOVE",
+                        "productBrand": "ADIDAS",
+                        "productDescription": "Adidas Sparring Gloves!",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034351_4.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034351_4.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034351_4.jpg"
+                        ],
+                        "productCode": "HA5691",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Gold",
+                        "sizesAvailable": [
+                            "Small",
+                            "Medium",
+                            "Large"
+                        ],
+                        "productPrice": 249.99
+                    },
+                    {
+                        "productTitle": "TOP PRO 360 PRO BOXING LEATHER SPARRING GLOVES",
+                        "productBrand": "TOP PRO",
+                        "productDescription": "Top Pro 360 Sparring Gloves!",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032894.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21032894.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032894.jpg"
+                        ],
+                        "productCode": "HA5538",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Gold/Black",
+                        "sizesAvailable": [
+                            "Small",
+                            "Medium",
+                            "Large"
+                        ],
+                        "productPrice": 109.99
+                    },
+                    {
+                        "productTitle": "RINGSIDE PRO EQUIPMENT ULTRA PRO SPAR LACE GLOVE",
+                        "productBrand": "RINGSIDE",
+                        "productDescription": "Ringside Pro Sparring Gloves",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21028646_4.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21028646_4.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/1/1/118D6E8B-1EF9-4A34-BADE-624EC55D7F0D_4.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21028646_4.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/1/1/118D6E8B-1EF9-4A34-BADE-624EC55D7F0D_4.jpg"
+                        ],
+                        "productCode": "HA4847",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "Small",
+                            "Medium",
+                            "Large"
+                        ],
+                        "productPrice": 129.99
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Equipment",
+            "Description": "All the latest and greatest in Equipment",
+            "Image": "../images/equipment-helmet.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "PURE 2 IMPROVE CORE WHEEL SET",
+                        "productBrand": "ADIDAS",
+                        "productDescription": "Pure 2 Core Training Wheel",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/3/0/3022756.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/3/0/3022756.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/3/0/3022756.jpg"
+                        ],
+                        "productCode": "BA8915",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Gold",
+                        "sizesAvailable": [],
+                        "productPrice": 24.99
+                    },
+                    {
+                        "productTitle": "TOP PRO 360 PRO BOXING LEATHER SPARRING PADDLES",
+                        "productBrand": "TOP PRO",
+                        "productDescription": "Training paddles for speed and accuracy",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034308.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034308.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtm01-black-white-close-up-01.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtm01-black-white-close-up-02.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034308.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtm01-black-white-close-up-01.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtm01-black-white-close-up-02.jpg"
+                        ],
+                        "productCode": "HA5684",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [],
+                        "productPrice": 74.99
+                    },
+                    {
+                        "productTitle": "BYTOMIC RUBBER MEDICINE BALL",
+                        "productBrand": "BYTOMIC",
+                        "productDescription": "Weighted medicine ball, in various sizes",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034243.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034243.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/b/y/bytomic_1kg_rubber_medicine_ball_logo.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034243.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/b/y/bytomic_1kg_rubber_medicine_ball_logo.jpg"
+                        ],
+                        "productCode": "HA5673",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "1KG",
+                            "2KG",
+                            "3KG",
+                            "4KG",
+                            "5KG",
+                            "6KG",
+                            "7KG",
+                            "8KG"
+                        ],
+                        "productPrice": 18.99
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Clothing",
+            "Description": "All the latest and greatest in Clothing",
+            "Image": "../images/clothing-cap.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "KRONK GLOVES SLEEVELESS ZIP HOODY",
+                        "productBrand": "KRONK",
+                        "productDescription": "Dri-fit sleeveless hoody, equipped with zip",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/k/r/kronk_sleeveless_zip_hoodie_grey_black_back.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034588.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/k/r/kronk_sleeveless_zip_hoodie_grey_black_back.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034588.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/k/r/kronk_sleeveless_zip_hoodie_grey_black_back.jpg"
+                        ],
+                        "productCode": "BA8911",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "White",
+                        "sizesAvailable": [],
+                        "productPrice": 34.99
+                    },
+                    {
+                        "productTitle": "BOX 2 BURN HOODED CONTRAST PADDED JACKET",
+                        "productBrand": "BOX",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034390_1.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034390_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/b/f/bf_lv660_black_gunmetalgrey_side_13.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/b/f/bf_lv660_black_gunmetalgrey_back_13.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034390_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/b/f/bf_lv660_black_gunmetalgrey_side_13.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/b/f/bf_lv660_black_gunmetalgrey_back_13.jpg"
+                        ],
+                        "productCode": "HA5693",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Grey",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 59.99
+                    },
+                    {
+                        "productTitle": "CHEPSTOW BOXING CLUB SLIM FIT POLY TRACKSUIT",
+                        "productBrand": "CHEPSTOW",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21033653_1.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21033653_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/c/b/cbc_lv871_rear_5.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21033653_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/c/b/cbc_lv871_rear_5.jpg"
+                        ],
+                        "productCode": "HA5610",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 65.99
+                    },
+                    {
+                        "productTitle": "BISHOP AUCKLAND BOXING CLUB BOXING SHORTS",
+                        "productBrand": "BISHOP",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21033487_1.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21033487_1.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21033487_1.jpg"
+                        ],
+                        "productCode": "HA5589",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "White",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 44.99
+                    },
+                    {
+                        "productTitle": "DWAYNAMICS ABC BOUT SHORTS",
+                        "productBrand": "DWAYNAMICS",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032943_1.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21032943_1.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032943_1.jpg"
+                        ],
+                        "productCode": "HA5532",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 39.99
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Womans",
+            "Description": "All the latest and greatest in Womans",
+            "Image": "../images/womens-shirt.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "UNDER ARMOUR WOMENS HEATGEAR® ARMOUR LEGGINGS",
+                        "productBrand": "UNDER ARMOUR",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032843_1.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21032843_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/u/a/ua014_black_black_metallicsilver_back_4.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032843_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/u/a/ua014_black_black_metallicsilver_back_4.jpg"
+                        ],
+                        "productCode": "HA5518",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 41.99
+                    },
+                    {
+                        "productTitle": "BXF WOMENS PERFORMANCE REFLECTIVE LEGGINGS",
+                        "productBrand": "BXF",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034523.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034523.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR306_LS21_2020_4.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR306_LS22_2020_4.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034523.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR306_LS21_2020_4.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR306_LS22_2020_4.jpg"
+                        ],
+                        "productCode": "HA5014",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [
+                            "X Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 29.99
+                    },
+                    {
+                        "productTitle": "UNDER ARMOUR WOMEN’S RIVAL FLEECE FULL-ZIP HOODI",
+                        "productBrand": "UNDER ARMOUR",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032844.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21032844.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/u/a/ua009_black_white_white_back_1_4.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21032844.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/u/a/ua009_black_white_white_back_1_4.jpg"
+                        ],
+                        "productCode": "HA5513",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Black",
+                        "sizesAvailable": [],
+                        "productPrice": 44.99
+                    },
+                    {
+                        "productTitle": "BXF WOMENS CROPPED OVERSIZED HOODIE",
+                        "productBrand": "BXF",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21029604.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21029604.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR085_LS01_2020.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21029604.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/B/X/BXF_TR085_LS01_2020.jpg"
+                        ],
+                        "productCode": "HA5016",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Cream",
+                        "sizesAvailable": [
+                            "Small",
+                            "Small",
+                            "Large",
+                            "Extra Large",
+                            "Extra X Large"
+                        ],
+                        "productPrice": 19.99
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Kids",
+            "Description": "All the latest and greatest in Kids",
+            "Image": "../images/kids-dress.png",
+            "Products": {
+                "Available": [
+                    {
+                        "productTitle": "ADIDAS KIDS BOXING GLOVES AND FOCUS MITTS SET",
+                        "productBrand": "ADIDAS",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034024.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21034024.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtkk02-blue-red-2_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtkk02-blue-red-3_1.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21034024.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtkk02-blue-red-2_1.jpg",
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/500x500/9df78eab33525d08d6e5fb8d27136e95/a/d/adibtkk02-blue-red-3_1.jpg"
+                        ],
+                        "productCode": "HA5649",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Blue",
+                        "sizesAvailable": [],
+                        "productPrice": 36.99
+                    },
+                    {
+                        "productTitle": "PRO BOX JUNIOR CHAMP SPAR GLOVE",
+                        "productBrand": "PRO BOX",
+                        "productDescription": "",
+                        "productImg": "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21027255.jpg",
+                        "smallImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/thumbnail/72x/9df78eab33525d08d6e5fb8d27136e95/2/1/21027255.jpg"
+                        ],
+                        "largeImages": [
+                            "https://www.boxfituk.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/1/21027255.jpg"
+                        ],
+                        "productCode": "BA8753",
+                        "discountPercentage": "",
+                        "stockAvailability": "IN STOCK",
+                        "productColour": "Gold",
+                        "sizesAvailable": [],
+                        "productPrice": 29.99
+                    }
+                ]
+            }
+        }
+    ]
+}

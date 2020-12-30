@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Hello</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid navbar navbar-expand-lg static-top navbar-light bg-light ">
+            <a href="#" class="navbar-brand font-weight-bold" id="navLogo"><img src="../images\newLogo.png"
+                    alt="StayStrong Logo" id="brand">StayStrong</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav" id="navbarLinks"> </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto navbar-expand-sm">
+            </div>
+
+
+            <ul class="navbar-right">
+                <li class="nav-item mr-3">
+                    <a href="#" id="cart">
+                        <i class="fa fa-shopping-cart "></i> Cart
+                        <span class="badge bg-success ml-1 text-white" id="cartCount">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="shopping-cart">
+            <div class="shopping-cart-header">
+                <i class="fa fa-shopping-cart cart-icon text-dark"></i>
+                <span class="badge" id="cartCount">&nbsp;</span>
+                <div class="shopping-cart-total">
+                    <span class="lighter-text">Total:</span>
+                    <span class="main-color-text" id="cartTotalPrice"></span>
+                </div>
+            </div>
+
+            <div class="container mt-3" id="cartContainer">
+            </div>
+
+            <button type="button" class="btn btn-block btn-success btn-sm mt-3" id="goCheckout">Checkout</button>
+        </div>
+    </div>
+
+    <main role="main">
+        <section class="jumbotron text-center" id="jumbotron">
+            <div class="container">
+                <h1 class="jumbotron-heading">Stay Strong Boxing</h1>
+                <p class="lead text-dark">All of your boxing needs conveniently in one place!</p>
+                </p>
+            </div>
+        </section>
+        <div class="album py-5">
+            <div class="container">
+                <div class="row" id="item-container"></div>
+            </div>
+
+            <footer class="page-footer font-small pt-4 bg-dark">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+
+                        <div class="col-md-5 mt-md-0 text-white pl-6">
+                            <h5 class="text-uppercase text-white">Footer Content</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span class="pl-3">01616263687</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-paper-plane"></i>
+                                    <span class="pl-3">Amirshaw@hotmail.co.uk</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    <span class="pl-3">Open: Mon-Fri 8:00am-16:00pm</span>
+                                    <span class="pl-3">Closed Sat-Sun</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    <span class="pl-3"> Whitworth House, Ashton Old Rd, Openshaw, Manchester M11
+                                        2WH</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <hr class="clearfix w-100 d-md-none pb-3">
+
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <h5 class="text-uppercase text-white">Links</h5>
+
+                            <ul class="list-unstyled text-white" id="footerLinks">
+
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 mb-md-0 mb-3 text-white">
+
+                            <h5 class="text-uppercase">Links</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-white" id="aboutUs" href="#!">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-white" id="contactUs" href="#!">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-white" id="deliveryInfo" href="#!">Delivery Info</a>
+                                </li>
+                                <li>
+                                    <a class="text-white" id="pricePromise" href="#!">Price Promise</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+                    <a href="#" class="text-white"> StayStrong.com</a>
+                </div>
+            </footer>
+    </main>
+    <!-- FooterLink Modal
+    
+    <div id="linkModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+          
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/App.js"></script>
+
+</html>

@@ -1,0 +1,29 @@
+#brand{
+    height: 100px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+#navbarMenu{
+    padding-left: 5px;
+}
+.btn-group{
+    display: flex;
+    margin: 0 auto;
+}
+.product-main-image {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#cart{
+    font-size: 2em;
+}
+.nav-link{
+    cursor: pointer;
+}
+.footerLink{
+    cursor: pointer;
+}
+.shopping-cart{
+    z-index: 1;
+}
