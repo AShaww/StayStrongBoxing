@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem('cart') !== null) {
     cart = JSON.parse(localStorage.getItem('cart'));
   }
+  //$('#checkoutBtn') should be only valid once details of form are filled in. Debug later.
   $('#checkoutBtn').on('click', () => {
     Swal.fire({
       icon: 'success',
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function goBack() {
   const goBack = $('<button>').addClass('btn btn-danger my-2 btn-success col text-center my-3 col-md-12').attr({
-    "id": "loadCategories",
+    "id": "goBack",
     "type": "button"
   }).html('Go Back');
 
@@ -46,6 +47,7 @@ function goBack() {
 }
 function checkCartCount() {
   const container = $('#cartContainer');
+  $('#goBack').hide();
 
   if (cart.items.length === 0) {
     $('#checkoutForm').hide();
@@ -94,10 +96,12 @@ function createCartItem(cartItem, index) {
   let cartimageContainer = $('<div>').addClass('col-md-3');
   let cartImage = $('<img src="' + cartItem.productImg + '">').attr({
     'width': "75px",
-    'height': "auto"
+    'height': "auto",
+    "alt": cartItem.productTitle
+
   });
 
-  let cartRow = $('<div>').addClass('row mt-1');
+  let cartRow = $('<div>').addClass('row mt-1 border');
   let infoTitle = $('<h6>').html(cartItem.productTitle);
   let infoPrice = $('<span>').html(cartItem.productPrice);
   let actions = $('<div>').addClass('col-md-2');
@@ -130,13 +134,14 @@ function resetCart() {
 }
 function saveCart(cartCount) {
   $('#cartCount').html(cartCount);
-  $('#cartTotalPrice').html('£' + cart.total.toFixed(2));
+  $('#cartTotalPrice').html('Total: ' + '£' + cart.total.toFixed(2));
   localStorage.setItem('cart', JSON.stringify(cart));
 }
 function setCartTotal() {
   cart.total = 0;
   for (var i = 0; i < cart.items.length; i++) {
     if (cart.items[i] !== null) cart.total += cart.items[i].productPrice;
+    saveCart()
   }
 }
 function updateCart() {

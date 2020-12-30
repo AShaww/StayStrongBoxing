@@ -102,7 +102,8 @@ function createCartItem(cartItem, index) {
     let cartimageContainer = $('<div>').addClass('col-md-3');
     let cartImage = $('<img src="' + cartItem.productImg + '">').attr({
         'width': "75px",
-        'height': "auto"
+        'height': "auto",
+        'alt': cartItem.productTitle
     });
     let information = $('<div>').addClass('col-md-7');
     let infoTitle = $('<div>').html(cartItem.productTitle);
@@ -432,3 +433,5 @@ function updateCart() {
 // cont.append(checkInstruction)
 // }
 // createCheckout()
+// Modal for Links at the bottom of the screen, price promise delivery etc. 
+// Not enough time, 
