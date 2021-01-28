@@ -141,7 +141,7 @@ function resetCart() {
 function saveCart(cartCount) {
   $('#cartCount').html(cartCount);
   $('#cartTotalPrice').html('Total: ' + '£' + cart.total.toFixed(2)).attr({
-    "aria-label" :  "Total-Price" + cart.total
+    "aria-label" :  "Total-Price: " + cart.total
   });
   localStorage.setItem('cart', JSON.stringify(cart));
 }
