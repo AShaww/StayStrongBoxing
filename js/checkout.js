@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       icon: 'success',
       title: 'Thank you for your Purchase',
       showConfirmButton: false,
-      timer: 1500
+      timer: 1500,
     })
   })
   checkCartCount();
@@ -23,7 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
 function goBack() {
   const goBack = $('<button>').addClass('btn btn-danger my-2 btn-success col text-center my-3 col-md-12').attr({
     "id": "goBack",
-    "type": "button"
+    "type": "button",
+    "aria-label" : "Go back",
+    "role" : "button"
   }).html('Go Back');
 
   goBack.on('click', () => {
@@ -54,12 +56,14 @@ function checkCartCount() {
     $('#cartProducts').hide();
     const emptyAlert = $('<div>').attr({
       "class": "alert alert-info",
-      "role": "alert"
+      "role": "alert",
+      "aria-label" : "Cart is EMPTY, go back and add a product to the cart and try again..."
     }).html("Cart is EMPTY, go back and add a product to the cart and try again...");
 
     const goBack = $('<button>').addClass('btn btn-danger my-2 btn-success col text-center').attr({
       "id": "loadCategories",
-      "type": "button"
+      "type": "button",
+      "aria-label" : "Go back to Categories"
     }).html('Go to Categories');
 
     goBack.on('click', function () {
@@ -105,7 +109,9 @@ function createCartItem(cartItem, index) {
   let infoTitle = $('<h6>').html(cartItem.productTitle);
   let infoPrice = $('<span>').html(cartItem.productPrice);
   let actions = $('<div>').addClass('col-md-2');
-  let deleteAction = $('<div>').addClass('float-right h3 text-dark pt-1').html('&#215;').data('dataindex', index); //&#215; represents the "x"
+  let deleteAction = $('<div>').addClass('float-right h3 text-dark pt-1').html('&#215;').data('dataindex', index).attr({
+    "aria-label" : "Delete Item here (X)"
+  }); //&#215; represents the "x"
 
 
   cartContainer.append(cartRow)
@@ -134,7 +140,9 @@ function resetCart() {
 }
 function saveCart(cartCount) {
   $('#cartCount').html(cartCount);
-  $('#cartTotalPrice').html('Total: ' + '£' + cart.total.toFixed(2));
+  $('#cartTotalPrice').html('Total: ' + '£' + cart.total.toFixed(2)).attr({
+    "aria-label" :  "Total-Price" + cart.total
+  });
   localStorage.setItem('cart', JSON.stringify(cart));
 }
 function setCartTotal() {

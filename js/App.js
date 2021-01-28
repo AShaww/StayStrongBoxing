@@ -12,7 +12,8 @@ var cart = {
 }
 const goBack = $('<button>').addClass('btn btn-danger my-2 btn-success col text-center my-3 col-md-12').attr({
     "id": "loadCategories",
-    "type": "button"
+    "type": "button",
+    "aria-label": "Go Back"
 }).html('Go Back');
 // run when page is loaded
 document.addEventListener("DOMContentLoaded", () => {
@@ -146,7 +147,8 @@ function createItem(product) {
         .addClass('btn btn-dark btn-block btn-sm')
         .attr({
             "type": "button",
-            "value": "View Product"
+            "value": "View Product",
+            "aria-label": "View Product"
         })
         .html(JSON.stringify(product.sizesAvailable));
 
@@ -178,7 +180,8 @@ function createCategoryItem(category) {
     let middleFooter = $('#footerLinks');
     let midFootNav = $('<li>').attr({
         'href': "#",
-        'class': "footerLink"
+        'class': "footerLink",
+        "aria-label": "Shop " + category.Type + " Bottom Nav Link"
     }).html(category.Type).on("click", () => {
         $("#item-container").html("");
         loadCategory(category.Type);
@@ -188,7 +191,8 @@ function createCategoryItem(category) {
 
     let navLi = $('<li>').attr({
         'href': "#",
-        'class': "nav-link"
+        'class': "nav-link",
+        "aria-label": "Shop " + category.Type + " Top Nav Link"
     }).html(category.Type).on("click", () => {
         $("#item-container").html("");
         loadCategory(category.Type);
@@ -204,6 +208,7 @@ function createCategoryItem(category) {
         name: category.Type + "Btn",
         id: category.Type + "Btn",
         value: "Shop " + category.Type,
+        "aria-label": "Shop " + category.Type
     });
 
     showButton.on("click", () => {
@@ -264,32 +269,46 @@ function showItem(product) {
         'id': "mainProductImage",
         'height': '75%',
         'width': '100%',
+        'aria-label' : product.productTitle
     });
 
     let informationContainer = $('<div class="col-md-7">')
 
-    let title = $('<p>').html('Name: ' + product.productTitle);
-    let brand = $('<p>').html('Brand: ' + product.productBrand);
-    let stockStatus = $('<p>').html('Stock: ' + product.stockAvailability);
-    let description = $('<p>').html('Description: ' + product.productDescription);
-    let price = $('<p>').html('Price: £' + product.productPrice);
+    let title = $('<p>').html('Name: ' + product.productTitle).attr({
+        'aria-label' : product.productTitle
+    });
+    let brand = $('<p>').html('Brand: ' + product.productBrand).attr({
+        'aria-label' : product.productBrand
+    });
+    let stockStatus = $('<p>').html('Stock: ' + product.stockAvailability).attr({
+        'aria-label' : product.stockAvailability
+    });
+    let description = $('<p>').html('Description: ' + product.productDescription).attr({
+        'aria-label' : product.productDescription
+    });
+    let price = $('<p>').html('Price: £' + product.productPrice).attr({
+        'aria-label' : product.productPrice
+    });
     let splitter = $('</hr>').addClass('border-dark');
     let sizeLabel = $('<p id="selectSize">').html('Select size:');
 
     let dropdown = $('<select>').addClass('form-control').attr({
-        'id': 'quantitySelect'
+        'id': 'quantitySelect',
+        "aria-label": "Select Size/Weight from dropdown"
     });
 
     let smallImage = $('<div>').attr({
         "width": "100%",
         "display": "flex",
-        "justify-content": "space-between"
+        "justify-content": "space-between",
+        'aria-label' : product.productTitle
     });
 
 
     let buyBtn = $('<button>').addClass('btn btn-dark btn-block mt-2').attr({
         'type': 'button',
         'value': 'Add to cart',
+        "aria-label": "Add to Cart Button"
     }).html('Add to cart');
 
 
@@ -330,7 +349,7 @@ function showItem(product) {
                 'width': '90px',
                 'height': 'auto',
                 'cursor': 'pointer',
-                'class': 'border rounded'
+                'class': 'border rounded',
             });
 
             smallImage.append(thumbImage);
