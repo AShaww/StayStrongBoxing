@@ -1,5 +1,5 @@
 ========================
-STAYSTRONG BOXING WEBSITE FULL JQUERY AND BOOTSTRAP (DYNAMIC)  
+STAYSTRONG BOXING WEBSITE FULL JQUERY AND BOOTSTRAP (DYNAMIC - SINGLEPAGE WEB APP/SITE)  
 ========================
 --------------------------------------------------------------------------------------------------------
 
